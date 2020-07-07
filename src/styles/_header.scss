@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    
+    .nav-link {
+        color: $primary-text-color !important;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .logo a{
+        font-size: 20px;
+        color: $primary-text-color !important;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: $secondary-text-color !important;
+    }
+    
+ 
+}

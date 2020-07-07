@@ -2,6 +2,8 @@
 import { HelloWorld } from './js/HelloWorld'
 import WebpackLogo from './images/webpack-logo.svg'
 import './styles/index.scss'
+// import "bootstrap/dist/js/bootstrap.js"
+import "bootstrap/scss/bootstrap.scss"
 
 // Create SVG logo node
 const logo = document.createElement('img')
@@ -14,3 +16,4 @@ greeting.textContent = HelloWorld()
 // Append SVG and heading nodes to the DOM
 const app = document.querySelector('#root')
 app.append(logo, greeting)
+

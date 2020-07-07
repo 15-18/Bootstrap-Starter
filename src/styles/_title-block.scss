@@ -1,0 +1,51 @@
+.title-block {
+    text-align: center;
+
+.description {
+    color: $primary-text-color;
+    font-size: 18px;
+   
+}
+
+
+.title {
+    position: relative;
+    font-weight: bold;
+    &.large {
+        font-size: 56px;
+        text-transform: uppercase;
+    }
+    &.middle {
+        font-size: 32px;
+    }
+    
+    &.primary {
+        color: $secondary-text-color;
+    }
+    &.secondary {
+        color: $secondary-color;
+    }
+    
+    &.spliter {
+        margin-bottom: 60px;
+
+        &.spliter-primary::before{
+        background-color: $primary-color;
+        }
+        &.spliter-secondary::before {
+        background-color: $secondary-text-color;
+        }
+        &::before{
+            bottom: -30px;
+            left: 50%;
+            transform:translateX(-50%);
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            content: "";
+    
+        }
+    }
+}
+}
+
